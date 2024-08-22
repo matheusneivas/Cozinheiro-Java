@@ -1,0 +1,13 @@
+public class Cozinheiro {
+    public static void main(String[] args) {
+        FritarOvo lanche = new FritarOvo();
+        lanche.pegaringredientes();
+        lanche.acenderFogo();
+        lanche.colocarnoFogo();
+        lanche.colocarOleo();
+        lanche.oleoEsquentar();
+        lanche.colocarOvo();
+        lanche.colocarSal();
+        lanche.retirarPronto();
+    }
+}
