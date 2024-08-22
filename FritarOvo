@@ -1,0 +1,32 @@
+public class FritarOvo {
+
+    public void pegaringredientes(){
+        System.out.println("Pegando frigideira, ovo, óleo e sal...");    
+    }
+    public void acenderFogo(){
+        System.out.print("Acendendo o fogo...");
+    }
+    public void colocarnoFogo(){
+        System.out.print("Colocando frigideira no fogo...");
+    }
+    public void colocarOleo(){
+        System.out.println("Colocando óleo na frigideira...");
+    }
+    public void oleoEsquentar(){
+        try {
+            System.out.println("Óleo esquentando...");
+            Thread.sleep(4000); //aguarde o oleo esquentar por 4 segundos.
+        } catch (InterruptedException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    public void colocarOvo(){
+        System.out.print("Colocando o ovo...");
+    }
+    public void colocarSal(){
+        System.out.print("Colocando o sal...");
+    }
+    public void retirarPronto(){
+        System.out.print("Rerirando quando estiver pronto...");
+    }
+   }
